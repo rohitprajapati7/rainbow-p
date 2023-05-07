@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +26,143 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+} */
+
+
+/* Navbar css Start */
+
+.text-theme{
+  color: #FFBE30;
+}
+
+
+.gradient-button-common{
+  background-image: linear-gradient(to right, #FF3E00 , #FFBE30);
+}
+
+nav{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 11;
+  font-family: 'Inter', sans-serif;
+}
+
+.main-slider .slick-prev, .main-slider .slick-next{
+  display: none !important;
+}
+
+nav a.active{
+  background-image: linear-gradient(to right, #FF3E00 , #FFBE30);
+  font-weight: 700;
+}
+
+nav a{
+  letter-spacing: 2px;
+  transition: 0.5s ease-in-out;
+}
+
+nav .link-nav:hover{
+  background-image: linear-gradient(to right, #FF3E00 , #FFBE30);
+  color: #fff;
+  transition: 0.5s ease-in-out;
+}
+
+/* Slider css */
+
+.main-slider::before{
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.main-slider .slick-dots{
+  bottom: 40px;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+h2{
+  font-weight: 700;
+  font-size: 85px;
+  line-height: 1;
+  color: #333333;
+
+}
+
+h2 span{
+  font-weight: 400;
+
+}
+
+h1 span{
+  color: #FFBE30;
+}
+
+h4{
+  font-size: 25px;
+}
+
+h5{
+  font-weight: 700;
+}
+
+h3{
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.custom-form {
+  background-color: #333333;
+  padding: 12px 15px;
+  color: #9ca3af;
+  font-size: 20px;
+}
+
+.small-banner{
+     background-image: url(../../public/images/special-offer-bg1.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-top: -6px;
+     z-index: 11;
+     position: relative;
+}
+
+.main-slider .slider-item {
+  position: relative;
+}
+
+.main-slider .slider-item:before {
+  content: '';
+  display: block;
+  padding-top: 65%;
+}
+
+.main-slider .slider-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-event, .team-section{
+  background-color: #f7f7f7;
+}
+
+.listing li{
+  padding: 0px 20px;
 }
