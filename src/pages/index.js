@@ -5,6 +5,7 @@ import Smallbanner from "../components/Smallbanner";
 import Contentevent from "../components/Contentevent";
 import Rainboweventgroup from "../components/Rainboweventgroup";
 import Team from "../components/Team";
+import Footer from "../components/Footer";
 
 
 export default function Home() {
@@ -34,6 +35,7 @@ export default function Home() {
           <Team />
         </div>
       </div>
+      <Footer />
       </div>
     </main>
   )
