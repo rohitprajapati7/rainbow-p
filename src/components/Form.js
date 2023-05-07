@@ -30,7 +30,7 @@ function Form() {
                             </div>
                         </div>
                         <div className='mt-4'>
-                        <select id="countries" class=" block w-full  custom-form">
+                        <select id="countries" className=" block w-full  custom-form">
                             <option selected>Choose Service</option>
                             <option value="US">United States</option>
                             <option value="CA">Canada</option>
