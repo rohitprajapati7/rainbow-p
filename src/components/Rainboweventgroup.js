@@ -4,8 +4,7 @@ import Vector from '../../public/images/Vector.svg';
 import Vector2 from '../../public/images/Vector2.svg';
 import Vector3 from '../../public/images/Vector3.svg';
 
-
-function Contentevent() {
+function RainbowEventGroup() {
   return (
 
     <>
@@ -29,4 +28,4 @@ function Contentevent() {
   )
 }
 
-export default Contentevent
+export default RainbowEventGroup;

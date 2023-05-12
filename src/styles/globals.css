@@ -166,3 +166,10 @@ h3{
 .listing li{
   padding: 0px 20px;
 }
+
+/* hide the arrows from input type number */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

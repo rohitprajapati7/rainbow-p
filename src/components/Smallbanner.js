@@ -1,10 +1,7 @@
 import React from 'react'
 
-
-
-function SmallHeader() {
+function SmallBanner() {
   return (
-
     <>
       <div className='small-banner py-8'>
         <h3 className='text-white text-center '>We Are Rainbow Event Group</h3>
@@ -14,4 +11,4 @@ function SmallHeader() {
   )
 }
 
-export default SmallHeader
+export default SmallBanner;
