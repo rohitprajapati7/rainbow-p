@@ -20,6 +20,8 @@ export const images = [
     {img: movie, title: 'MOVIE MAKING'}
 ];
 
+export const driveUrl = 'https://drive.google.com/uc?export=download&id';
+
 export const services = [
     {
         value:'KARAOKE',
